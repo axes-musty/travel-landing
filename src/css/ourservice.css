@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 100%;
-    padding-bottom: 7%;
+    height: 100%; 
+    padding: 0 10% 7% 10%;
 }
 
 .header-text{

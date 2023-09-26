@@ -18,7 +18,6 @@ const ServiceTile = (props) => {
             <div className='middle-text'> {props.middleText} </div>
             <div className='bottom-text'> {props.bottomText} </div>
         </div>
-
     </div>
   )
 }
