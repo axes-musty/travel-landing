@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/travel-landing/static/css/main.d7ab7c4f.css",
+    "main.js": "/travel-landing/static/js/main.a11e90c1.js",
+    "static/media/bg.png": "/travel-landing/static/media/bg.cc4ba190866ba436cf14.png",
+    "index.html": "/travel-landing/index.html",
+    "main.d7ab7c4f.css.map": "/travel-landing/static/css/main.d7ab7c4f.css.map",
+    "main.a11e90c1.js.map": "/travel-landing/static/js/main.a11e90c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7ab7c4f.css",
+    "static/js/main.a11e90c1.js"
+  ]
+}
