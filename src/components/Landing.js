@@ -1,6 +1,7 @@
 import React from 'react'
+import '../css/landing.css'
 
-const PageOne = () => {
+const Landing = () => {
   return (
     <div className='container-p1' id='PageOne'>
         <div className='gradient'>
@@ -9,9 +10,9 @@ const PageOne = () => {
                   Travel
                 </div>
                 <div className='navbar'>
-                  <a href="#PageOne" className='link-navbar'>Home</a>
-                  <a href="#PageTwo" className='link-navbar'>About Us</a>
-                  <a href="#PageTwo" className='link-navbar'>Packages</a>
+                  <a href="#Landing" className='link-navbar'>Home</a>
+                  <a href="#OurService" className='link-navbar'>About Us</a>
+                  <a href="#OurService" className='link-navbar'>Packages</a>
                 </div>
                 <div className='right-icons'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
@@ -25,11 +26,12 @@ const PageOne = () => {
             </div>
             <div className='container-mid'>
               <div className='text-box-main'>
-                Your Imagination Is Your Only Limit
+                Your Imagination Is <br></br> Your Only Limit
               </div>
               <div className='text-box-low'>
-                <span>We always try to make our customer Happy. We provide all kind of facilities. Your Satisfaction is our main priority</span>
-                <a href="#PageTwo" className="btn1">Discover more</a>
+                We always try to make our customer Happy. We provide all kind of facilities. <br></br>
+                Your Satisfaction is our main priority
+                <a href="#OurService" className="btn1">Discover more</a>
               </div>
 
             </div>
@@ -38,4 +40,4 @@ const PageOne = () => {
   )
 }
 
-export default PageOne
+export default Landing

@@ -1,14 +1,13 @@
 import React from 'react'
 import { AppProvider } from './context/AppContext'
-import './App.css'
-import PageOne from './components/PageOne'
-import PageTwo from './components/PageTwo'
+import Landing from './components/Landing'
+import OurService from './components/OurService'
 
 const App = () => {
   return (
     <AppProvider>
-      <PageOne />
-      <PageTwo />
+      <Landing />
+      <OurService />
     </AppProvider>
   )
 }

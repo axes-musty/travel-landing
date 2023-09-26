@@ -1,0 +1,42 @@
+.container-servicetile{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 10% 0% 10%;
+    height: 100%;
+}
+.ServiceTile, .ServiceTileMid{  
+    display: flex;
+    border-radius: 15px;
+    background: #F9F9F9;
+    width: 416px;
+    height: 232px;
+    flex-shrink: 0;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+.ServiceTileMid {
+    background: #FFF;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+}
+
+.middle-text {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bottom-text {
+    margin-top: 10%;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
